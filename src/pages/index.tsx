@@ -20,8 +20,8 @@ export default function Home() {
       variants={mainVariant}
       className="w-screen h-screen bg-black"
     >
-      <div className="flex pt-56 pl-6">
-        <h1 className="uppercase text-4xl text-offwhite">
+      <div className="flex pt-56 pl-6 lg:pt-96 lg:pl-56">
+        <h1 className="uppercase text-4xl lg:text-6xl text-offwhite">
           Nikolai,
           <br /> The Creator
         </h1>

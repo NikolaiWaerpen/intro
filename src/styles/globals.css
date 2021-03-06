@@ -7,11 +7,19 @@ body {
 }
 
 .text-wrapper {
-  @apply z-30 font-light text-4xl;
+  @apply z-30;
 }
 
 .text {
-  @apply block;
+  @apply block font-light text-4xl lg:text-9xl;
+}
+
+.text-5 {
+  @apply mb-3 lg:mb-5;
+}
+
+.text-7 {
+  @apply mt-3 lg:mb-5;
 }
 
 .text-1,

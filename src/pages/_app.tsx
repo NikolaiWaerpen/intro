@@ -11,7 +11,7 @@ const mainSpan = {
     scale: 200,
     transition: {
       delay: 3.5,
-      duration: 1,
+      duration: 0.3,
     },
   },
 };
@@ -22,7 +22,7 @@ export default function App({ Component, pageProps }) {
   useEffect(() => {
     setTimeout(() => {
       setIntroOver(true);
-    }, 5000);
+    }, 4300);
   }, []);
 
   return (
